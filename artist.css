@@ -1,0 +1,118 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    /* align-items: center; */
+}
+.flex-box{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    align-items: center;
+    flex-shrink: 1;
+}
+img{
+    width : 100%;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ; 
+}
+button{
+    width: 80%;
+    align-self: center;
+    background-color: transparent;
+}
+#camila{
+    background-color: grey;
+}
+#shawn{
+    background-color: tan;
+}
+#conan{
+    background-color: rgb(206, 65, 65);
+}
+#demi{
+    background-color: rgb(114, 158, 135);
+}
+body{
+    background-image: url(bg.jpg);
+}
+.flex-box button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    opacity: 0.7
+    ;
+    color: aliceblue;
+    border: 0cap;
+    font-size: 20px;
+}
+  p{  
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    color: aliceblue;
+    font-size: 10px;
+  }
+  .homeabout{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+/* a{
+    width: 50%;
+    background-color:rgba(125, 118, 122, 0.829);
+    background-blend-mode:overlay;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+} */
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(125, 118, 122, 0.829);
+    background-blend-mode:overlay;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 20px;
+}
+.main-flex{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap:20px
+}
+nav{
+    display: flex;
+    padding: 5px;
+    background-color: #f595de;
+    border-radius:20px;
+    gap:10px;
+    justify-content: center;
+}
+.outer-flex{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+a:hover{
+    color: #a20cff;
+}
+
+
