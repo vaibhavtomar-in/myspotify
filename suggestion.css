@@ -1,0 +1,40 @@
+header{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap : 0.75em
+}
+.songsgrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-auto-rows: 1.5fr;
+    grid-gap : 1em;
+    padding: 1em;
+}
+.songitem{
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-image : url(./bg.jpg);
+}
+.itempair{
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    gap:1em;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+audio{
+    width: 100%;
+}
+
