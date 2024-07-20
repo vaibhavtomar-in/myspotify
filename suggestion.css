@@ -37,4 +37,6 @@ img{
 audio{
     width: 100%;
 }
-
+nav{
+    box-shadow:2px 2px 2px 1px #888888;
+}
