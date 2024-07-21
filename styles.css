@@ -46,6 +46,9 @@ img{
 nav{
     box-shadow:2px 2px 2px 1px #888888;
 }
+li{
+    padding-left: 1em;
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .container{

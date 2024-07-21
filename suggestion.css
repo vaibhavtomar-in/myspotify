@@ -40,3 +40,6 @@ audio{
 nav{
     box-shadow:2px 2px 2px 1px #888888;
 }
+li{
+    padding-left: 1em;
+}
