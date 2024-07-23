@@ -1,40 +1,71 @@
-.flex-1{
+.container{
     display: flex;
     flex-direction: row;
-    gap:30px;
-    padding-top: 30px;
+    border: solid;
+    border-color: rgb(253, 214, 179);
+    gap : 1em;
+    background-image: url(./bg.jpg);
 }
-.flex-2a{
-    display: flex;
-}
-.flex-2b{
+.col2{
+    width: 65%;
     display: flex;
     flex-direction: column;
-    flex: 100%;
-    gap:20px;
+    gap: 1em;
 }
-.flex-2b-item{
-    width: 100%;
+.col2row{
     display: flex;
-    flex-grow: 2;
-    background-color: rgb(199, 143, 251);
-    border-radius: 40px;
+    padding-top: 1em;
     justify-content: center;
+    height:25%
+   
+}
+.col2row a{
+    text-decoration: none;
+    vertical-align: center;
+    color: black;
+}
+.col2row a:hover{
+    color: rgb(252, 172, 128);
+}
+.col2row a p{
+    font-size: 1.5em;
+    vertical-align: middle;
+
+}
+.col1{
+    width:30%
+}
+.col1row{
+    width: 100%;
 }
 img{
-    height: 400px;
+    object-fit: cover;
+    width: 100%;
     border-radius: 50%;
-    padding: 10px;
-    background-color: rgb(199, 143, 251);
 }
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    font-size: 40px;
+nav{
+    box-shadow:2px 2px 2px 1px #888888;
 }
-body{
-    background-image: url(bg.jpg);
+li{
+    padding-left: 1em;
 }
-a{
-    text-decoration: none;
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container{
+        flex-direction: column;
+    }
+    .col1{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .col1 div{
+        display: flex;
+        width : 80%;
+    }
+    .col2{
+        width : 100%;
+        font-size: 0.8rem;
+    }
+    
 }
