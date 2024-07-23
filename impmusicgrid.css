@@ -45,3 +45,27 @@ li{
 a:hover{
     color: #a20cff;
 }
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mob1{
+        order:1;
+    }
+    .mob2{
+        order:2;
+    }
+    .mob3{
+        order:3;
+    }
+    .mob4{
+        order:4;
+    }
+    .mob5{
+        order:5;
+    }
+    .mob6{
+        order:6;
+    }
+}
